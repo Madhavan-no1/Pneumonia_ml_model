@@ -1,0 +1,8 @@
+Flask
+Werkzeug
+numpy
+requests
+gunicorn
+scikit-learn
+Pillow
+tensorflow-cpu
