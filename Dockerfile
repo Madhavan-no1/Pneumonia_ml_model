@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose port 8080 for the app to run on Cloud Run
-EXPOSE 8080
+EXPOSE 8081
 
 # Set environment variables for Flask
 ENV FLASK_APP=app.py
